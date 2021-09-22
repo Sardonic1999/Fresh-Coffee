@@ -5,6 +5,9 @@ import About from "./About/About";
 import Menu from "./Menu/Menu";
 import Products from "./Products/Products";
 import Review from "./Review/Review";
+import Contact from "./Contact/Contact";
+import Blog from "./Blogs/Blog";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Menu />
       <Products />
       <Review />
+      <Contact />
+      <Blog />
+      <Footer />
     </div>
   );
 }
